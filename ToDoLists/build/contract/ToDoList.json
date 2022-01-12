@@ -1,0 +1,155 @@
+{
+    "contracts": {
+        "ToDoList.sol": {
+            "ToDoList": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "name": "taskCount",
+                        "outputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "",
+                                "type": "uint256"
+                            }
+                        ],
+                        "stateMutability": "view",
+                        "type": "function"
+                    }
+                ],
+                "evm": {
+                    "bytecode": {
+                        "object": "608060405260008055348015601357600080fd5b506099806100226000396000f3fe6080604052348015600f57600080fd5b50600436106044577c01000000000000000000000000000000000000000000000000000000006000350463b6cb58a581146049575b600080fd5b605160005481565b60405190815260200160405180910390f3fea26469706673582212200fb2e84a5e44c5166eb54755b87e74c80396e652c5869e62d4433f73540a1cd064736f6c634300080b0033",
+                        "sourceMap": "36:58:0:-:0;;;83:1;61:23;;36:58;;;;;;;;;;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "object": "6080604052348015600f57600080fd5b50600436106044577c01000000000000000000000000000000000000000000000000000000006000350463b6cb58a581146049575b600080fd5b605160005481565b60405190815260200160405180910390f3fea26469706673582212200fb2e84a5e44c5166eb54755b87e74c80396e652c5869e62d4433f73540a1cd064736f6c634300080b0033",
+                        "sourceMap": "36:58:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;61:23;;;;;;;;;160:25:1;;;148:2;133:18;61:23:0;;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "30600",
+                            "executionCost": "5087",
+                            "totalCost": "35687"
+                        },
+                        "external": {
+                            "taskCount()": "363"
+                        }
+                    }
+                }
+            },
+            "checksum": "84460bcde2b13b320636e4b1cbb918c7"
+        }
+    },
+    "errors": [
+        {
+            "component": "general",
+            "errorCode": "1878",
+            "formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> ToDoList.sol\n\n",
+            "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+            "severity": "warning",
+            "sourceLocation": {
+                "end": -1,
+                "file": "ToDoList.sol",
+                "start": -1
+            },
+            "type": "Warning"
+        }
+    ],
+    "sources": {
+        "ToDoList.sol": {
+            "ast": {
+                "absolutePath": "ToDoList.sol",
+                "exportedSymbols": {
+                    "ToDoList": [
+                        5
+                    ]
+                },
+                "id": 6,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            ">=",
+                            "0.5",
+                            ".0",
+                            "<=",
+                            "0.9",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:32:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "canonicalName": "ToDoList",
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 5,
+                        "linearizedBaseContracts": [
+                            5
+                        ],
+                        "name": "ToDoList",
+                        "nameLocation": "45:8:0",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "functionSelector": "b6cb58a5",
+                                "id": 4,
+                                "mutability": "mutable",
+                                "name": "taskCount",
+                                "nameLocation": "73:9:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 5,
+                                "src": "61:23:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 2,
+                                    "name": "uint",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "61:4:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "value": {
+                                    "hexValue": "30",
+                                    "id": 3,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "kind": "number",
+                                    "lValueRequested": false,
+                                    "nodeType": "Literal",
+                                    "src": "83:1:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_rational_0_by_1",
+                                        "typeString": "int_const 0"
+                                    },
+                                    "value": "0"
+                                },
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 6,
+                        "src": "36:58:0",
+                        "usedErrors": []
+                    }
+                ],
+                "src": "0:96:0"
+            },
+            "id": 0
+        }
+    }
+}
