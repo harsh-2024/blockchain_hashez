@@ -105,7 +105,7 @@
             "type": "Warning"
         },
         {
-            "compo`ne`nt": "general",
+            "component": "general",
             "errorCode": "2462",
             "formattedMessage": "Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n  --> ToDoList.sol:14:5:\n   |\n14 |     constructor() public {\n   |     ^ (Relevant source part starts here and spans across multiple lines).\n\n",
             "message": "Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.",
